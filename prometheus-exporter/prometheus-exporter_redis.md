@@ -4,7 +4,7 @@
     helm repo update
 
 ###### install chart
-    helm install redis-exporter prometheus-community/prometheus-redis-exporter
+    helm install redis-exporter prometheus-community/prometheus-redis-exporter -f prometheus-redis_values.yaml
 
 ###### Link to chart
 [https://github.com/prometheus-community/helm-charts/tree/main/charts/prometheus-redis-exporter]
