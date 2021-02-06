@@ -3,5 +3,5 @@ redis:
 
 serviceMonitor:
   enabled: true
-  targetLabels: 
+  labels: 
     release: prometheus
